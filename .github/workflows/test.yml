@@ -15,10 +15,10 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4
+         uses: actions/checkout@v4
 
       - name: Azure Login
-        uses: Azure/login@v2.3.0
+         uses: Azure/login@v2.3.0
         with:
           client-id: c4df3811-9daa-4848-b9e0-4cd8bacc17f2
           tenant-id: 749c1dd0-8da4-446d-987c-6deb1b6cbab9
