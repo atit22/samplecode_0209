@@ -21,10 +21,10 @@ jobs:
       - name: Azure Login
         uses: Azure/login@v2.3.0
         with:
-          client-id: c4df3811-9daa-4848-b9e0-4cd8bacc17f2
+          client-id: 67568fed-c19d-4e95-8777-2712d0b8c71e
           tenant-id: 749c1dd0-8da4-446d-987c-6deb1b6cbab9
           subscription-id: 879e262b-becf-4bea-a163-835b023ba8e0
-          client-secret: 36a474be-8e3b-460a-9ece-d0669a362fed
+          
           auth-type: SERVICE_PRINCIPAL
 
       - name: HashiCorp - Setup Terraform
